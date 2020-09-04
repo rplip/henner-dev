@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Henner</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <div class="container" id="topnavcontainer">
+            <div class="row align-items-center" id="topnavdesktop">
+              <div class="col-2">
+                  <a href="#">Henner Particulier</a>
+              </div>
+              <div class="col-2">
+                <a href="#">Henner Entreprises</a>
+              </div>
+              <div class="col-3">
+                <a href="#">Henner Solutions Courtage</a>
+              </div>
+              <div class="col-2 bg-white text-dark">
+                <a href="#">Le Groupe Henner</a>
+              </div>
+              <div class="col-2" style="background : #00338e;">
+                <a href="https://www.hennerMonCompte.fr">Mon compte</a>
+             </div>
+              <div class="col-1">
+                FR/ENG
+              </div>
+            </div>
+            <div class="row align-items-center" id="topnavmobile">
+                <button class="btn col-6 align-self-start text-left"><a href="#">Mon compte</a></button>
+                <button class="btn col-6 align-self-end text-right"><a href="#">FR|EN</a></button>
+                <div class="col-3 text-center"><a href="#">Henner<br/>Particulier</a></div>
+                <div class="col-6 text-center"><a href="#">Henner<br/>Solutions Courtage</a></div>
+                <div class="col-3 text-center"><a href="#">Henner<br/>Entreprises</a></div>
+                
+            </div>
+          </div>
+    </div>
+
+    <div class="wrapper" id="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="active">
+            <div class="sidebar-header" id="sidebarHeader">
+                <img src="asset/images/henner-logo.jpg" alt="Logo Henner" id="logo">
+                <!--<img src="asset/images/henner-logo.jpg" alt="Logo Henner" class="activelogo">-->
+            </div>
+    
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        Qui sommes nous?
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Histoire</a>
+                        </li>
+                        <li>
+                            <a href="#">Jean-Jacques Henner</a>
+                        </li>
+                        <li>
+                            <a href="#">Chiffres clés</a>
+                        </li>
+                        <li>
+                            <a href="#">Implantation</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        Nos expertises
+                    </a>
+                    <a href="#">
+                        Nos clients en France
+                    </a>
+                    <a href="#">
+                        Nos clients en mobilité internationale
+                    </a>
+                    <a href="#">
+                        Solutions pros de l'assurance
+                    </a>
+                    <a href="#">
+                        Espace Presse
+                    </a>
+                    <a href="#">
+                        Henner Recrute
+                    </a>
+                </li>
+                <li class="mentions">
+                    <a href="#">
+                        Contact
+                    </a>
+                    <a href="#">
+                        Mentions légales
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Page Content  -->
+        <div id="content" class="active">
+    
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+    
+                    <button type="button" id="sidebarCollapse" class="btn iconcolor">
+                        <i class="fas fa-bars" id="menuburger"></i>
+                        <i class="fas fa-times displaynone" id="menuarrow"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+
+            <div id="social" class="container">
+                <div class="row socialIcons justify-content-start">
+                  <button type="button" class="btn"><a href="#"><i class="fab fa-twitter-square"></i></a></button>
+                  <button type="button" class="btn"><a href="#"><i class="fab fa-facebook-square"></i></a></button>
+                  <button type="button" class="btn"><a href="#"><i class="fab fa-linkedin"></i></a></button>
+                  <button type="button" class="btn"><a href="#"><i class="fab fa-instagram-square"></i></a></button>
+                </div>
+    
+        </nav>
+    
+        
+    </div>
+
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- Our JS -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
