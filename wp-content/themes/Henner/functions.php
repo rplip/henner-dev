@@ -28,6 +28,7 @@ function henner_setup(){
         'menu-1' => __( 'Nav menu', 'henner' ),
         'menu-2' => __( 'Sidebar menu', 'henner' ),
         'menu-3' => __( 'Social menu', 'henner' ),
+        'menu-4' => __( 'Nav Menu Mobile', 'henner' ),
     ) );
 }
 add_action( 'after_setup_theme', 'henner_setup' );

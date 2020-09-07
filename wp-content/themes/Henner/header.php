@@ -25,39 +25,23 @@
 
     <div class="topnav">
         <div class="container" id="topnavcontainer">
-            <div class="row align-items-center" id="topnavdesktop">
-              <div class="col-2">
-                  <a href="#">Henner Particulier</a>
-              </div>
-              <div class="col-2">
-                <a href="#">Hennere Entreprises</a>
-              </div>
-              <div class="col-3">
-                <a href="#">Henner Solutions Courtage</a>
-              </div>
-              <div class="col-2 bg-white text-dark">
-                <a href="#">Le Groupe Henner</a>
-              </div>
-              <div class="col-2" style="background : #00338e;">
-                <a href="https://www.hennerMonCompte.fr">Mon compte</a>
-             </div>
-              <div class="col-1">
-                FR/ENG
-              </div>
+          <div class="row align-items-center" id="topnavdesktop">
               <?php 
                 wp_nav_menu ( array (
-                'theme_location' => 'Nav menu' ,
-                'menu_class' => 'Nav menu', 
+                'theme_location' => 'menu-1' ,
+                'menu_class' => 'topnavul',
+                'container'      => 'div',
+                'container_class' => 'row align-items-center',
+                'container_id'    => 'topnavdesktop',
                 ) ); 
               ?>
             </div>
             <div class="row align-items-center" id="topnavmobile">
-                <button class="btn col-6 align-self-start text-left"><a href="#">Mon compte</a></button>
-                <button class="btn col-6 align-self-end text-right"><a href="#">FR|EN</a></button>
+                <div class="col-6 align-self-start text-left"><a href="#">Mon compte</a></div>
+                <div class="col-6 align-self-end text-right"><a href="#">FR|EN</a></div>
                 <div class="col-3 text-center"><a href="#">Henner<br/>Particulier</a></div>
                 <div class="col-6 text-center"><a href="#">Henner<br/>Solutions Courtage</a></div>
                 <div class="col-3 text-center"><a href="#">Henner<br/>Entreprises</a></div>
-                
             </div>
           </div>
     </div>

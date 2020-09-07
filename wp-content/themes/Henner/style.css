@@ -375,7 +375,7 @@ body {
 .topnav {
     width: 100%;
     height: 3rem;
-    background-color: rgb(54, 52, 52);
+    background-color: rgb(54, 52, 51);
     position: absolute;
     z-index: 1;
     color: #fff;
@@ -417,6 +417,27 @@ body {
     position: fixed;
     right: 0%;
     top: 0%;
+}
+
+.topnavul {
+    list-style: none;
+    display: flex;
+}
+
+.topnavul > li {
+    padding: 0 1rem;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.topnavul > li:hover {
+    background: #00338e;
+}
+
+#menu-item-69 {
+    background: #fff;
+    color: #00338e;
 }
 
 #sidebar {
@@ -717,6 +738,14 @@ ul ul a {
             left: 90%;
             width: 10%;
         }
+
+        .topnavul > li {
+            line-height: 1.5rem;
+        }
+
+        .topnav {
+            height: 3rem;
+        }
 }
 
 @media (max-width: 740px) { /* En dessous de 740px */
@@ -731,8 +760,8 @@ ul ul a {
 
     .topnav {
         top: 0%;
-        height: 4rem;
-        padding-bottom: 4.5rem;
+        height: 5rem;
+        padding-bottom: 0;
     }
 
     #topnavcontainer {
@@ -749,7 +778,7 @@ ul ul a {
 
     .wrapper {
         width: 100%;
-        margin-top: 1.5rem;
+        margin-top: 4.3rem;
         left: 0%;
     }
 
@@ -881,6 +910,22 @@ ul ul a {
         font-size: .8rem;
         transition: all 1s ease-in-out;
     }
+
+    #main {
+        left: 0;
+        width: 100%;
+    }
+
+    #main h1 {
+        font-size: 3rem;
+    }
+
+    .col-6 {
+        height: 2rem;
+        line-height: 1rem;
+        margin-top: .1rem;
+    }
+
 
 
 }

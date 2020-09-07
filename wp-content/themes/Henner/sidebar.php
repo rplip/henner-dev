@@ -2,7 +2,7 @@
         <!-- Sidebar  -->
         <nav id="sidebar" class="active">
             <div class="sidebar-header" id="sidebarHeader">
-                <img src="http://localhost/Henner/wp-content/uploads/2020/09/henner-logo.jpg" alt="Logo Henner" id="logo">
+                <img src="http://localhost/henner-dev/wp-content/uploads/2020/09/henner-logo.jpg" alt="Logo Henner" id="logo">
                 <!--<img src="asset/images/henner-logo.jpg" alt="Logo Henner" class="activelogo">-->
             </div>
 
