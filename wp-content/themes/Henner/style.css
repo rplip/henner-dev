@@ -425,7 +425,7 @@ body {
     min-height: 100vh;
     background: #fff;
     color: #000;
-    margin-left: 100%;
+    margin-left: 70%;
     transition: all 1.0s ease-in-out;
 }
 a[data-toggle="collapse"] {
@@ -572,7 +572,8 @@ ul ul a {
 }
 
 .displaycontents {
-    display: contents;
+    display: block;
+    border: 0 none;
 }
 
 /*Icone burger couleur et taille*/
