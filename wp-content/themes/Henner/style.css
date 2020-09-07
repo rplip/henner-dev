@@ -514,7 +514,7 @@ a[data-toggle="collapse"] {
     margin-bottom: 5px;
 }
 
-/* Same dropdown links paddingg*/
+/* Same dropdown links padding*/
 #sidebar.active ul ul a {
     padding: 10px !important;
 }
