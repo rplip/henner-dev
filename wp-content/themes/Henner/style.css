@@ -422,10 +422,11 @@ body {
 .topnavul {
     list-style: none;
     display: flex;
+    padding: inherit;
 }
 
 .topnavul > li {
-    padding: 0 1rem;
+    padding: 0 2rem;
     text-align: center;
     height: 3rem;
     line-height: 3rem;
@@ -776,10 +777,23 @@ ul ul a {
         font-size: .8rem;
     }
 
+    #topnavdesktop.row {
+        margin-right:4%;
+        margin-left:4%;
+    }
+
+    .topnavul > li {
+        height: 2rem;
+        line-height: .8rem;
+        font-size: 1rem;
+        padding: .2rem .2rem 0 .2rem;
+    }
+
     .wrapper {
         width: 100%;
         margin-top: 4.3rem;
         left: 0%;
+        transition: all 0.1s;
     }
 
     #wrapper.active {
@@ -794,7 +808,7 @@ ul ul a {
         min-height: 1vh;
         background: #fff;
         color: #000;
-        transition: all 1.0s ease-in-out;
+        transition: all .1s ease-in-out;
         margin-left: 0%;
     }
 
@@ -812,16 +826,18 @@ ul ul a {
     #sidebar.active .sidebar-header #logo {
         
         position: fixed;
-        top: 4.1rem;
-        left: -.3rem;
-        width: 3rem;
-        transition: all 1s ease-in-out;
+        top: 4.3rem;
+        left: 0;
+        width: 2.5rem;
+        transition: all .1s ease-in-out;
+        padding: inherit;
 
     }
 
     #sidebar .sidebar-header #logo {
         left: inherit;
         width: 3.1rem;
+        transition: all 0.1s;
     }
 
     #sidebar .sidebar-header #logo.active {
@@ -841,7 +857,7 @@ ul ul a {
         position: absolute;
         top: 0%;
         left: 80%;
-        transition: all 1s ease-in-out;
+        transition: all .1s ease-in-out;
     }
 
     #sidebar ul.primary-menu {
@@ -898,7 +914,7 @@ ul ul a {
         left: 15%;
         display: flex;
         align-items: center;
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     #sidebar #HG {
@@ -907,13 +923,14 @@ ul ul a {
         left: 15%;
         display: flex;
         align-items: center;
-        font-size: .8rem;
-        transition: all 1s ease-in-out;
+        font-size: 1rem;
+        transition: all .1s ease-in-out;
     }
 
     #main {
         left: 0;
         width: 100%;
+        top: 3.8rem;
     }
 
     #main h1 {
@@ -924,6 +941,11 @@ ul ul a {
         height: 2rem;
         line-height: 1rem;
         margin-top: .1rem;
+    }
+
+    #menu-item-60 > ul {
+        position: inherit !important;
+        transform: inherit !important;
     }
 
 

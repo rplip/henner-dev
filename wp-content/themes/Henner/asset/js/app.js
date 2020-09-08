@@ -49,9 +49,13 @@ $(document).ready(function () {
         $('#sidebarHeader').after('<div id="HG">Henner Group</div>');
         $('#social').addClass('displaynone');
 
-        $('#menu-item-60').on('click', function () {
-            $('.navbar-nav .dropdown-menu').toggleClass('displaycontents');
-        });
+        $('.menu-item-328').toggleClass('col-10 order-1 d-flex'); /* Mon compte */
+        $('.menu-item-66').toggleClass('col-3 order-4'); /* Henner Particuliers */
+        $('.menu-item-67').toggleClass('col-3 order-6'); /* Henner entreprise */
+        $('.menu-item-68').toggleClass('col-6 order-5'); /* Soluton Courtage */
+        $('.menu-item-69').toggleClass('displaynone'); /* Henner Groupe */
+        $('.menu-item-424-fr').toggleClass('col-1 order-2'); /* Drapeau français */
+        $('.menu-item-424-en').toggleClass('col-1 order-3'); /* Drapeau UK */
       }
 
     $('#sidebarCollapse').on('touchstart', function () {
@@ -63,6 +67,10 @@ $(document).ready(function () {
         $('#social').toggleClass('displaynone');
         $('#wrapper').toggleClass('active');
         $('#sidebar-navbar-collapse-1').toggleClass('collapse');
+    });
+
+    $('#menu-item-60').on('click', function () {
+        $('.navbar-nav .dropdown-menu').toggleClass('displaycontents');
     });
 
     $('#menu-item-60').on('touchstart', function () {

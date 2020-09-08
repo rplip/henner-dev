@@ -37,12 +37,25 @@
               ?>
             </div>
             <div class="row align-items-center" id="topnavmobile">
+               <!--  
                 <div class="col-6 align-self-start text-left"><a href="#">Mon compte</a></div>
                 <div class="col-6 align-self-end text-right"><a href="#">FR|EN</a></div>
                 <div class="col-3 text-center"><a href="#">Henner<br/>Particulier</a></div>
                 <div class="col-6 text-center"><a href="#">Henner<br/>Solutions Courtage</a></div>
                 <div class="col-3 text-center"><a href="#">Henner<br/>Entreprises</a></div>
-            </div>
+                -->
+                <?php 
+                wp_nav_menu ( array (
+                'theme_location' => 'menu-1' ,
+                'menu_class' => 'topnavul flex-wrap',
+                'container'      => 'div',
+                'container_class' => 'row align-items-center',
+                'container_id'    => 'topnavdesktop',
+                ) ); 
+                ?>
+                </div> 
+
+           
           </div>
     </div>
 
