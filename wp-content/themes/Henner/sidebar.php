@@ -2,8 +2,10 @@
         <!-- Sidebar  -->
         <nav id="sidebar" class="active">
             <div class="sidebar-header" id="sidebarHeader">
-                <img src="http://localhost/henner-dev/wp-content/uploads/2020/09/henner-logo.jpg" alt="Logo Henner" id="logo">
+                <a href="https://extranetoko.fr/henner/index.php">
+                <img src="https://extranetoko.fr/henner/wp-content/uploads/2020/09/henner-logo.jpg" alt="Logo Henner" id="logo">
                 <!--<img src="asset/images/henner-logo.jpg" alt="Logo Henner" class="activelogo">-->
+                </a>
             </div>
 
             <?php 
@@ -14,8 +16,6 @@
                 'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
                 'container_class' => 'collapse navbar-collapse',
                 'container_id'    => 'sidebar-navbar-collapse-1',
-                'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-                'walker'          => new WP_Bootstrap_Navwalker(),
             ) );
             ?>
             
