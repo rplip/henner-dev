@@ -366,6 +366,14 @@ Text Domain: henner
     color: #f0f;
 }
 
+#menu-item-60.active > ul {
+    display: block;
+}
+
+#menu-item-60 > ul {
+    display: none;
+}
+
 
 body {
     font-family: 'Poppins', sans-serif;
